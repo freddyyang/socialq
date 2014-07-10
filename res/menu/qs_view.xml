@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.ucsb.cs.cs185.socialqs.MainActivity" >
+
+	    <item
+        android:id="@+id/new_qs"
+        android:title="@string/new_qs"
+        android:icon="@drawable/ic_action_new_event"
+        app:showAsAction="ifRoom|withText"/>
+	    
+	        <item
+        android:id="@+id/map_view"
+        android:title="@string/map_view"
+        android:icon="@drawable/ic_action_place"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>
+
